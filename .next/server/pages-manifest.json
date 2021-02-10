@@ -3,5 +3,5 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/account-settings/basic-information": "pages/account-settings/basic-information.js"
+  "/skills/skList": "pages/skills/skList.js"
 }

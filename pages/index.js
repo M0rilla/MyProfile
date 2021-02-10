@@ -1,5 +1,4 @@
 import SiteLayout from "../components/SiteLayout";
-import Link from "next/link";
 import Image from "next/image";
 import getConfig from "next/config";
 
@@ -30,12 +29,12 @@ const Index = () => (
           </h1>
         </div>
       </div>
+    </div>      
       <div className="mt-12 text-center">
         <button className="inline-block bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg px-6 py-4 leading-tight">         
            Leave a Like!       
         </button>
-      </div>
-    </div>
+      </div>         
   </SiteLayout>
 );
 

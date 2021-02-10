@@ -29,10 +29,10 @@
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
     ],
-    "/account-settings/basic-information": [
+    "/skills/skList": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
-      "static/chunks/pages/account-settings/basic-information.js"
+      "static/chunks/pages/skills/skList.js"
     ]
   },
   "ampFirstPages": []

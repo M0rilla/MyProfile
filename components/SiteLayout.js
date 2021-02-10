@@ -1,4 +1,6 @@
-import Link from "next/link";
+import NavItem from "../components/NavItem.js";
+import Nav from "./Nav.js";
+import List from "../pages/skills/skList"
 
 const SiteLayout = ({ children }) => (
   <div className="mt-8 max-w-7xl mx-auto px-8">
@@ -18,54 +20,19 @@ const SiteLayout = ({ children }) => (
         <br />
         <div>
           <div className="max-w-xl mx-auto px-8">
-            <nav>
-              <div className="py-4 flex-shrink-0 flex items-center">
-                {/* <img className="h-8 w-8" src="/logo.svg" alt="" /> */}
-                <Link href="/">
-                  <a className="ml-8 font-medium text-gray-900">Home</a>
-                </Link>
-                <Link href="/account-settings/basic-information">
-                  <a className="ml-8 font-medium text-gray-900">
-                    Account Settings
-                  </a>
-                </Link>
-              </div>             
-            </nav>
+            <Nav>
+              <NavItem href="/" isActive>
+                Home
+              </NavItem>
+              <NavItem href="/experiences/ExpList">Experiences</NavItem>
+              <NavItem href="/skills/skills">Skills</NavItem>
+            </Nav>            
           </div>
         </div>
       </div>
     </div>
-    <div className="mt-6 sm:mt-0 sm:py-12">{children}</div>    
+    <div className="mt-6 sm:mt-0 sm:py-12">{children}</div>
   </div>
 );
 
 export default SiteLayout;
-
-// <div className="bg-white antialiased">
-//   <div>
-//     <div>
-//       <div className="max-w-xl mx-auto px-8">
-//         <nav>
-//           <div className="py-4 flex-shrink-0 flex items-center">
-//             <img className="h-8 w-8" src="/logo.svg" alt="" />
-//             <Link href="/">
-//               <a className="ml-8 font-medium text-gray-900">Home</a>
-//             </Link>
-//             <Link href="/account-settings/basic-information">
-//               <a className="ml-8 font-medium text-gray-900">
-//                 Account Settings
-//               </a>
-//             </Link>
-//           </div>
-//           <div className="mt-2">
-//             <input
-//               className="block w-full border border-gray-300 rounded-lg bg-gray-100 px-3 py-2 leading-tight focus:outline-none focus:border-gray-600 focus:bg-white"
-//               placeholder="Search..."
-//             />
-//           </div>
-//         </nav>
-//       </div>
-//     </div>
-//   </div>
-//   <div className="mt-6 sm:mt-0 sm:py-12">{children}</div>
-// </div>
