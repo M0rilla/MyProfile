@@ -1,19 +1,21 @@
 import NavItem from "../components/NavItem.js";
 import Nav from "./Nav.js";
-import List from "../pages/skills/skList"
+import Link from 'next/link';
 
 const SiteLayout = ({ children }) => (
   <div className="mt-8 max-w-7xl mx-auto px-8">
     <div>
       <div>
-        <h1 className="text-center">
-          <span className="block text-5xl font-bold leading-none">
-            GUSTAVO MORILLA
-          </span>
+        <h1 className="text-center">          
+          <Link href="/">
+            <a className="block text-5xl font-bold leading-none">
+              GUSTAVO MORILLA
+            </a>
+          </Link>
         </h1>
         <br />
         <h1 className="text-center">
-          <span className="block text-xl text-gray-600">
+          <span className="block text-xl text-gray-600 ">
             IT Support Analyst | Developer Fullstack Jr
           </span>
         </h1>
@@ -24,9 +26,9 @@ const SiteLayout = ({ children }) => (
               <NavItem href="/" isActive>
                 Home
               </NavItem>
-              <NavItem href="/experiences/ExpList">Experiences</NavItem>
+              <NavItem href="/experiences/experiences">Experiences</NavItem>
               <NavItem href="/skills/skills">Skills</NavItem>
-            </Nav>            
+            </Nav>
           </div>
         </div>
       </div>

@@ -1,6 +1,8 @@
 import SiteLayout from "../components/SiteLayout";
 import Image from "next/image";
 import getConfig from "next/config";
+import { motion, useMotionValue } from 'framer-motion';
+import homeStyles from '../styles/home.module.scss'
 
 // Only holds serverRuntimeConfig and publicRuntimeConfig
 const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
@@ -12,7 +14,7 @@ console.log(publicRuntimeConfig.staticFolder);
 const Index = () => (
   <SiteLayout>
     <div>
-      <div className="flex mb-4">
+      <motion.div className={`flex mb-4 ${homeStyles.homeBackground}`}>
         <div>
           <Image
             src={`${publicRuntimeConfig.staticFolder}/img1.png`}
@@ -28,7 +30,7 @@ const Index = () => (
             </span>
           </h1>
         </div>
-      </div>
+      </motion.div>
     </div>      
       <div className="mt-12 text-center">
         <button className="inline-block bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg px-6 py-4 leading-tight">         

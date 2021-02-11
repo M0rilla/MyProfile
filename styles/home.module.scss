@@ -1,0 +1,11 @@
+.homeBackground{
+    background-color: #0000001c;
+    padding:1.5rem;
+    backdrop-filter: blur(8px);
+    height: 100%;
+    border-radius: 2rem 2rem 2rem 2rem;
+    @screen md {
+       border-radius: 2rem 2rem 2rem 2rem;
+    }
+  
+  }
