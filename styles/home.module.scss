@@ -1,11 +1,18 @@
-.homeBackground{
-    background-color: #0000001c;
-    padding:1.5rem;
+.homeImage{
+   background-image: url('../image/3.jpg');
+   padding:1.5rem;
     backdrop-filter: blur(8px);
     height: 100%;
     border-radius: 2rem 2rem 2rem 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
     @screen md {
        border-radius: 2rem 2rem 2rem 2rem;
     }
-  
-  }
+}
+
+.profilePicture{
+   -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+   border-radius: 2rem 2rem 2rem 2rem;
+}
