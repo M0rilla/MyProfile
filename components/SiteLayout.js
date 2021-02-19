@@ -32,8 +32,8 @@ const SiteLayout = ({ children }) => (
           </div>
         </div>
       </div>
-    </div>
-    <div className="mt-6 sm:mt-0 sm:py-6">{children}</div>
+    </div>    
+    <div className="home-bgstyle">{children}</div>
   </div>
 );
 

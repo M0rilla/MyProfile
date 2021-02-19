@@ -13,30 +13,39 @@ const Index = () => (
   <SiteLayout>
     <section>
       <div>
-        <div className="bg-home bg-auto rounded-lg">          
-          <div className="flex items-center justify-center m-4 rounded-lg py-8">
+        <div className="block home-bgstyle bg-home bg-auto rounded-lg grid grid-cols-3">
+          <div className="rounded-lg h-auto my-6 mx-6">
             <Image
-              className="rounded-full m-5"
+              className="rounded-full object-none object-center"
               src={`${publicRuntimeConfig.staticFolder}/img1.png`}
               alt="Picture of the author"
-              width={300}
-              height={300}
+              width={325}
+              height={475}
               quality={100}
             />
+            <div className="">
+              <span className="text-xl text-white">Piracicaba, São Paulo</span>
+              <br />
+              <span className="text-xl text-white">24 years</span>
+            </div>
           </div>
-          <div className="rounded-lg bg-black bg-opacity-80">
-            <h1 className="text-center">
-              <span className="text-xl text-white">Welcome to my website!</span>
-            </h1>
-          </div>         
+          <div className="rounded-lg col-span-2 m-6">
+            <div className="home-textbody bg-black text-white">
+              <h1 className="text-center">
+                <span className="text-xl text-white">
+                  Welcome to my website!
+                </span>
+              </h1>
+            </div>
+          </div>
         </div>
       </div>
+      <div className="mt-12 text-center">
+        <button className="bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg px-6 py-4 leading-tight">
+          Leave a Like!
+        </button>
+      </div>
     </section>
-    <div className="mt-12 text-center">
-      <button className="inline-block bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg px-6 py-4 leading-tight">
-        Leave a Like!
-      </button>
-    </div>
   </SiteLayout>
 );
 
