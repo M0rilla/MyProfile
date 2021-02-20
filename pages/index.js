@@ -11,37 +11,36 @@ console.log(publicRuntimeConfig.staticFolder);
 
 const Index = () => (
   <SiteLayout>
-    <section>
-      <div>
-        <div className="block home-bgstyle bg-home bg-auto rounded-lg grid grid-cols-3">
+    <section className="container mx-auto mb-20">
+      <div className="flex items-center justify-center my-6">
+        <div className="flex home-bgstyle bg-home bg-auto rounded-lg grid grid-cols-2">
           <div className="rounded-lg h-auto my-6 mx-6">
             <Image
               className="rounded-full object-none object-center"
               src={`${publicRuntimeConfig.staticFolder}/img1.png`}
               alt="Picture of the author"
-              width={325}
-              height={475}
+              width={300}
+              height={420}
               quality={100}
             />
-            <div className="">
-              <span className="text-xl text-white">Piracicaba, São Paulo</span>
-              <br />
-              <span className="text-xl text-white">24 years</span>
+            <div className="block text-center m-4 home-textbg rounded-full shadow-2xl">
+              <span className="text-xl text-white">Piracicaba - SP</span> 
+                          
             </div>
           </div>
-          <div className="rounded-lg col-span-2 m-6">
-            <div className="home-textbody bg-black text-white">
+          <div className="flex items-center justify-center rounded-lg m-6 ">
+            <div className="home-contactbg rounded-10 shadow-2xl text-white">
               <h1 className="text-center">
                 <span className="text-xl text-white">
-                  Welcome to my website!
+                  Welcome!
                 </span>
               </h1>
             </div>
           </div>
         </div>
       </div>
-      <div className="mt-12 text-center">
-        <button className="bg-gray-900 hover:bg-gray-800 text-white font-medium rounded-lg px-6 py-4 leading-tight">
+      <div className="text-center">
+        <button className="bg-gray-900 text-white font-medium rounded-lg px-6 py-4 leading-tight">
           Leave a Like!
         </button>
       </div>

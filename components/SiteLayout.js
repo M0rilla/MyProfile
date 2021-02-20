@@ -3,7 +3,7 @@ import Nav from "./Nav.js";
 import Link from 'next/link';
 
 const SiteLayout = ({ children }) => (
-  <div className="mt-8 max-w-7xl mx-auto px-8">
+  <div className="mt-8 mx-auto">
     <div>
       <div>
         <h1 className="text-center">          
@@ -33,7 +33,7 @@ const SiteLayout = ({ children }) => (
         </div>
       </div>
     </div>    
-    <div className="home-bgstyle">{children}</div>
+    <div className="flex items-center bg-gray-700">{children}</div>
   </div>
 );
 

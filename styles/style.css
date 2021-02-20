@@ -1,10 +1,19 @@
 .home-bgstyle {    
-    min-width: 800px;   
-    min-height: 600px;
+    min-width: 500px;   
+    min-height: 200px;   
+    max-width: 700px; 
+    align-self: center;    
 }
 
-.home-textbody {
-    min-height: 300px;   
+.home-textbg {
+    background-color: rgb(0 26 41);
+    height: 50px;
+}
+
+.home-contactbg {
+    background-color: rgb(0 26 41);
+    height: 400px;
+    width: 300px;
 }
 
 /* .box {
