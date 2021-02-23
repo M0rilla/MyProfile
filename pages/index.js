@@ -1,6 +1,14 @@
 import SiteLayout from "../components/SiteLayout";
 import Image from "next/image";
 import getConfig from "next/config";
+import { useEffect } from 'react'
+
+// import the library
+import { library } from '@fortawesome/fontawesome-svg-core';
+// get our fontawesome imports
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import your icons
+import { faLinkedin, faGithub, faInstagram, faSkype, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 // Only holds serverRuntimeConfig and publicRuntimeConfig
 const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
@@ -28,12 +36,17 @@ const Index = () => (
                           
             </div>
           </div>
-          <div className="flex items-center justify-center rounded-lg m-6 ">
+          <div className="items-center justify-center rounded-lg m-6 ">
             <div className="home-contactbg rounded-10 shadow-2xl text-white">
-              <h1 className="text-center">
-                <span className="text-xl text-white">
-                  Welcome!
-                </span>
+              <h1 className="home-brandstext">
+                Contact:
+                <ul className="home-brandstext">
+                  <li><button onClick={clickHandle} id="Linkedin"><FontAwesomeIcon icon={faLinkedin}/> LinkedIn</button></li>
+                  <li><button onClick={clickHandle} id="Github"><FontAwesomeIcon icon={faGithub}/> GitHub</button></li>
+                  <li><button onClick={clickHandle} id="Instagram"><FontAwesomeIcon icon={faInstagram}/> Instagram</button></li>
+                  <li><button onClick={clickHandle} id="Skype"><FontAwesomeIcon icon={faSkype}/> Skype</button></li>
+                  <li><button onClick={clickHandle} id="Whatsapp"><FontAwesomeIcon icon={faWhatsapp}/> WhatsApp</button></li>
+                </ul>               
               </h1>
             </div>
           </div>
@@ -47,5 +60,15 @@ const Index = () => (
     </section>
   </SiteLayout>
 );
+
+const clickHandle = () => {
+  switch(id) {
+    case 'Linkedin' : {
+      document.location.href = 'https://linkedin.com/in/gustavo-morilla';
+      break;
+    }   
+  }
+  
+}
 
 export default Index;
