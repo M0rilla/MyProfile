@@ -1,4 +1,20 @@
-.home-bgstyle {    
+/*  Most commom screen size of devices that is used
+    in media queries as breakpoints
+
+    Desktop:1200px;  xl
+    Laptop:1024px;  lg 
+    Tablet:768px;  md        
+    Phone:480px;  sm
+*/
+
+:root {
+    --desktop:1200px;  
+    --laptop:1024px;  
+    --tablet:768px;         
+    --phone:480px; 
+  }
+
+.home-bgstyle {        
     min-width: 500px;   
     min-height: 200px;   
     max-width: 700px;   
