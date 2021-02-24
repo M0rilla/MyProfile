@@ -28,6 +28,8 @@ const SiteLayout = ({ children }) => (
               </NavItem>
               <NavItem href="/experiences/experiences">Experiences</NavItem>
               <NavItem href="/skills/skills">Skills</NavItem>
+              <NavItem href="/courses/courses">Certifications & Courses</NavItem>
+              <NavItem> Thanks! </NavItem>
             </Nav>
           </div>
         </div>

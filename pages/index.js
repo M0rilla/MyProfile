@@ -41,8 +41,8 @@ const Index = () => (
               <h1 className="home-brandstext">
                 Contact:
                 <ul className="home-brandstext">
-                  <li><button onClick={clickHandle} id="Linkedin"><FontAwesomeIcon icon={faLinkedin}/> LinkedIn</button></li>
-                  <li><button onClick={clickHandle} id="Github"><FontAwesomeIcon icon={faGithub}/> GitHub</button></li>
+                  <li><button onClick={clickHandle} id="LinkedIn"><FontAwesomeIcon icon={faLinkedin}/> LinkedIn</button></li>
+                  <li><button onClick={clickHandle} id="GitHub"><FontAwesomeIcon icon={faGithub}/> GitHub</button></li>
                   <li><button onClick={clickHandle} id="Instagram"><FontAwesomeIcon icon={faInstagram}/> Instagram</button></li>
                   <li><button onClick={clickHandle} id="Skype"><FontAwesomeIcon icon={faSkype}/> Skype</button></li>
                   <li><button onClick={clickHandle} id="Whatsapp"><FontAwesomeIcon icon={faWhatsapp}/> WhatsApp</button></li>
@@ -61,14 +61,34 @@ const Index = () => (
   </SiteLayout>
 );
 
-const clickHandle = () => {
-  switch(id) {
-    case 'Linkedin' : {
-      document.location.href = 'https://linkedin.com/in/gustavo-morilla';
-      break;
-    }   
+const clickHandle = (event) => {
+    switch(event.target.id) {
+        case 'LinkedIn' : {
+        // Logic to handle `Linkedin` case
+            document.location.href = 'https://linkedin.com/in/gustavo-morilla';
+            break;
+        }  
+        case 'GitHub' : {
+      // Logic to handle `Linkedin` case
+          document.location.href = 'https://github.com/M0rilla';
+          break;
+        } 
+        case 'Instagram' : {
+      // Logic to handle `Linkedin` case
+          document.location.href = 'https://www.instagram.com/guuh_morilla/';
+          break;
+        } 
+        case 'Skype' : {
+    // Logic to handle `Linkedin` case
+        document.location.href = 'https://join.skype.com/invite/hfiwQSelIWGw';
+        break;
+        } 
+        case 'Whatsapp' : {
+    // Logic to handle `Linkedin` case
+        document.location.href = 'https://api.whatsapp.com/send?phone=551999189187&text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20atrav%C3%A9s%20de%20seu%20site!';
+        break;
+        }    
   }
-  
 }
 
 export default Index;
