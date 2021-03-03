@@ -24,9 +24,9 @@ console.log(publicRuntimeConfig.staticFolder);
 
 const Index = () => (
   <SiteLayout>
-    <section className="container mx-auto mb-20">
+    <section className="w-screen bg-gray-700">
       <div className="flex items-center justify-center my-6">
-        <div className="flex home-bgstyle bg-home bg-auto rounded-lg grid grid-cols-2">
+        <div className="flex home-bgstyle bg-home rounded-lg grid grid-cols-2">
           <div className="rounded-lg h-auto my-6 mx-6">
             <Image
               className="rounded-full object-none object-center"
@@ -74,11 +74,12 @@ const Index = () => (
             </div>
           </div>
         </div>
-      </div>
+      </div>      
       <div className="text-center">
-        <button className="bg-gray-900 text-white font-medium rounded-lg px-6 py-4 leading-tight">
+        <button className="bg-gray-900 text-white font-small rounded-lg px-4 py-4 m-6 leading-tight">
           Leave a Like!
         </button>
+        
       </div>
     </section>
   </SiteLayout>

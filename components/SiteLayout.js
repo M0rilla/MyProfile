@@ -40,7 +40,7 @@ const SiteLayout = ({ children }) => (
         </div>
       </div>
     </div>    
-    <div className="flex items-center bg-gray-700">{children}</div>
+    <div className="flex">{children}</div>
   </div>
 );
 
