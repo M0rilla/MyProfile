@@ -6,7 +6,7 @@ import getConfig from "next/config";
 import { library } from "@fortawesome/fontawesome-svg-core";
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import your icons
+// import icons
 import {
   faLinkedin,
   faGithub,
@@ -27,25 +27,25 @@ const Index = () => (
     <section className="w-screen bg-gray-700">
       <div className="flex items-center justify-center my-6">
         <div className="flex home-bgstyle bg-home rounded-lg grid grid-cols-2">
-          <div className="rounded-lg h-auto my-6 mx-6">
+          <div className="rounded-lg h-auto my-6 mx-8">
             <Image
-              className="rounded-full object-none object-center"
+              className="rounded-full"
               src={`${publicRuntimeConfig.staticFolder}/img1.png`}
               alt="Picture of the author"
               width={300}
-              height={420}
+              height={400}
               quality={100}
             />
           </div>
-          <div className="rounded-lg m-6">
-            <div className="home-textbg rounded-10 shadow-2xl text-white mt-10">
+          <div className="rounded-lg m-8">
+            <div className="home-textbg rounded-10 shadow-2xl text-white mt-8">
               <p>
                 My start at tecnology area was during my bachelor's degree in
                 Computer Science.
               </p>
               <p>
-                In 2020 something changed and a passion for programming and
-                development hit me like a meteor.
+                In 2020 something changed and a passion for develop projects and learn
+                programming hit me like a meteor.
               </p>
               <br />
               <p>
