@@ -15,13 +15,6 @@ import {
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 
-// Only holds serverRuntimeConfig and publicRuntimeConfig
-const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
-// Will only be available on the server-side
-console.log(serverRuntimeConfig.mySecret);
-// Will be available on both server-side and client-side
-console.log(publicRuntimeConfig.staticFolder);
-
 const Index = () => (
   <SiteLayout>
     <section className="w-screen bg-gray-700">
@@ -29,12 +22,11 @@ const Index = () => (
         <div className="flex home-bgstyle bg-home rounded-lg grid grid-cols-2">
           <div className="rounded-lg h-auto my-6 mx-8">
             <Image
-              className="rounded-full"
-              src={`${publicRuntimeConfig.staticFolder}/img1.png`}
+              className="rounded-full"              
+              src = "/profile.png"
               alt="Picture of the author"
               width={300}
-              height={400}
-              quality={100}
+              height={405}            
             />
           </div>
           <div className="rounded-lg m-8">

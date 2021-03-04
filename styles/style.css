@@ -27,6 +27,10 @@
     line-height: 30px;
 }
 
+.exp-img {
+    padding: 10px !important;
+}
+
 button {
     padding-inline: 20px;
 }

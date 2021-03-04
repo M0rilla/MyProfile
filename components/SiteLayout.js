@@ -7,7 +7,7 @@ const SiteLayout = ({ children }) => (
   <div className="mt-8 mx-auto">
     <div>
     <Head>
-        <title>Gustavo Morilla</title>
+        <title>Gustavo Morilla - Profile</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div>
