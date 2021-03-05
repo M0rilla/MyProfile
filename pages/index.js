@@ -17,7 +17,7 @@ import {
 
 const Index = () => (
   <SiteLayout>
-    <section className="w-screen bg-gray-700">
+    <section className="w-screen home-color">
       <div className="flex items-center justify-center my-6">
         <div className="flex home-bgstyle bg-home rounded-lg grid grid-cols-2">
           <div className="rounded-lg h-auto my-6 mx-8">
@@ -26,7 +26,7 @@ const Index = () => (
               src = "/profile.png"
               alt="Picture of the author"
               width={300}
-              height={405}            
+              height={400}            
             />
           </div>
           <div className="rounded-lg m-8">
@@ -67,12 +67,13 @@ const Index = () => (
           </div>
         </div>
       </div>      
-      <div className="text-center">
+      {/* <div className="text-center">
         <button className="bg-gray-900 text-white font-small rounded-lg px-4 py-4 m-6 leading-tight">
           Leave a Like!
         </button>
-        
-      </div>
+        <br />
+        <br />
+      </div> */}
     </section>
   </SiteLayout>
 );

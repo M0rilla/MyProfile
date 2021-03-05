@@ -14,10 +14,15 @@
     --phone:480px; 
   }
 
+.home-color {
+    background: rgb(55,65,81);
+    background: linear-gradient(180deg, rgba(55,65,81,1) 0%, rgba(55,65,81,0.7987570028011204) 50%, rgba(255,255,255,1) 100%);
+}
+
 .home-bgstyle {        
     min-width: 500px;   
     min-height: 200px;   
-    max-width: 750px;   
+    max-width: 750px;      
 }
 
 .home-textbg {
@@ -25,6 +30,10 @@
     font-size: 20px;
     padding: 10px;     
     line-height: 30px;
+}
+
+.exp-container {
+    max-width: 1500px;
 }
 
 .exp-img {

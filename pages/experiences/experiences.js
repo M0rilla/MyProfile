@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Experiences({ skills }) {
   return (
     <SiteLayout>
-      <section className="w-screen">
+      <section className="">
         <div className="flex items-center justify-center my-6">
           <div className="grid grid-cols-2">
             <div className="m-4">
@@ -27,56 +27,118 @@ export default function Experiences({ skills }) {
             <div className="text-center">
               <Image
                 className="exp-img"
-                src="/career.jpg"
+                src="/icon.png"
                 alt="Career"
-                width={400}
-                height={250}
+                width={350}
+                height={300}
               />
             </div>
           </div>
         </div>
         <div className="text-center">
-          Programming Languages, Frameworks and Software Tools
+          Programming Languages, Frameworks and Tools
           <div className="m-6">
             <Image
               className="exp-img"
-              src="/career.jpg"
-              alt="Career"
+              src="/html.png"
+              alt="HTML 5"   
+              title="HTML (Structure)"           
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/css.png"
+              alt="CSS 3"   
+              title="CSS (Structure)"           
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/js.png"
+              alt="Javascript"  
+              title="Javascript"
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img bg-gray-100 rounded-full m-30"
+              src="/jquery-1.svg"
+              alt="JQuery"  
+              title="Jquery"
+              width={180}
+              height={180}
+            />
+            <Image
+              className="exp-img"
+              src="/c.png"
+              alt="CSharp"
+              title="CSharp"
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/git.png"
+              alt="Git"
+              title="Git"
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/mvc.png"
+              alt=".NET MVC"
+              title=".NET MVC"
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/next-js.svg"
+              alt="Next.js"
+              title="Next.js"
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/npm.png"
+              alt="NPM"
+              title="Node Package Manager"
+              width={230}
+              height={200}
+            />
+            <Image
+              className="exp-img"
+              src="/bootstrap-4.svg"
+              alt="Bootstrap"
+              title="Bootstrap"
+              width={230}
+              height={190}
+            />
+            <Image
+              className="exp-img"
+              src="/tailwindcss.svg"
+              alt="Tailwind"
+              title="Tailwind"
               width={250}
               height={200}
             />
             <Image
               className="exp-img"
-              src="/career.jpg"
-              alt="Career"
+              src="/oracle-logo-1.svg"
+              alt="Oracle"
+              title="Oracle DB"
               width={250}
               height={200}
             />
             <Image
               className="exp-img"
-              src="/career.jpg"
-              alt="Career"
-              width={250}
-              height={200}
-            />
-            <Image
-              className="exp-img"
-              src="/career.jpg"
-              alt="Career"
-              width={250}
-              height={200}
-            />
-            <Image
-              className="exp-img"
-              src="/career.jpg"
-              alt="Career"
-              width={250}
-              height={200}
-            />
-            <Image
-              className="exp-img"
-              src="/career.jpg"
-              alt="Career"
+              src="/mysql-5.svg"
+              alt="MySQL"
+              title="MySQL"
               width={250}
               height={200}
             />
