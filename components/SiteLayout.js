@@ -50,10 +50,7 @@ const SiteLayout = ({ children }) => (
           <div className="sm:w-2/3 text-center py-4">
             <p className="text-sm text-black mb-2">
               © 2021 by Gustavo Morilla              
-            </p>
-            {/* <p className="text-sm text-black mb-2">
-              Next.js
-            </p> */}
+            </p>           
           </div>
         </div>
       </div>
