@@ -18,8 +18,9 @@ export default function Experiences({ skills }) {
                     height={250}
                   />
                 </div>
-                <div className="text-center">
-                  <span>Career experience</span>
+                <div className="text-justify">
+                  <p>Career experience</p>
+                  <br />
                   <p>06/2016 – 10/2018 HELPDESK INTERN, HYUNDAI AUTOEVER</p>
                   <span>
                     Atendimento ao cliente, solução de problemas de hardware e
@@ -36,17 +37,19 @@ export default function Experiences({ skills }) {
                     (Manufacturing Execution System).
                   </span>
                 </div>
-                <div className="text-center m-4">
-                  <span>Development Experience</span>
+                <div className="text-justify m-12">
+                  <p>Development Experience</p>
+                  <br />
                   <span>
-                    Neste cargo desenvolvi um sistema WEB de report diário das
-                    atividades e procedimentos realizados pelo time de MES
-                    facilitando a análise e visualização de informações além do
-                    controle total de acessos por hierarquia. Sistema MVC usando
-                    C#, JS, HTML e CSS. Banco de dados Oracle com jobs, triggers
-                    e procedures configuradas, além do controle de logs. Projeto
-                    sendo utilizado em 4 Fábricas– MOBIS, Transys, Dymos e
-                    AutoEver (Hyundai Motors)
+                    Em 2020 iniciei o desenvolvimento de um sistema WEB de
+                    report diário das atividades e procedimentos realizados pelo
+                    time de MES facilitando a análise e visualização de
+                    informações além do controle total de acessos por
+                    hierarquia. Sistema MVC usando C#, JS, HTML e CSS. Toda
+                    estrutura de banco de dados (Oracle) foi criada por mim
+                    contendo jobs, triggers e procedures configuradas, além do
+                    controle de logs. Projeto com implementação prevista em mais
+                    3 Plantas – MOBIS, Transys, Dymos além da Hyundai Motors
                   </span>
                   <p>...</p>
                 </div>

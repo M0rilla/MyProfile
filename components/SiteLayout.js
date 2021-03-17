@@ -34,10 +34,8 @@ const SiteLayout = ({ children }) => (
               </NavItem>
               <NavItem href="/experiences/experiences">Experiences</NavItem>
               <NavItem href="/skills/skills">Skills</NavItem>
-              <NavItem href="/courses/courses">
-                Certifications & Courses
-              </NavItem>
-              <NavItem> Thanks! </NavItem>
+              <NavItem href="/resume/resume">Resume</NavItem>
+              <NavItem>Projects</NavItem>
             </Nav>
           </div>
         </div>
@@ -48,9 +46,7 @@ const SiteLayout = ({ children }) => (
       <div className="container mx-auto px-6">
         <div className="mt-16 border-t-2 border-black flex flex-col items-center">
           <div className="sm:w-2/3 text-center py-4">
-            <p className="text-sm text-black mb-2">
-              © 2021 by Gustavo Morilla              
-            </p>           
+            <p className="text-sm text-black mb-2">© 2021 by Gustavo Morilla</p>
           </div>
         </div>
       </div>
