@@ -1,15 +1,12 @@
 import SiteLayout from "../../components/SiteLayout";
-import Image from "next/image";
+import { Document, pdfjs } from 'react-pdf'
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export default function Skills({ skills }) {
   return (
     <SiteLayout>
-        {/* <Image 
-     
-        
-        
-        
-        /> */}
+       <Document file="/Gustavo Morilla -Curriculo.pdf"          
+       />
       <div className="divide-y divide-gray-100"></div>
     </SiteLayout>
   );
