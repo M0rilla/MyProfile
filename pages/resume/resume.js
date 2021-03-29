@@ -1,13 +1,12 @@
 import SiteLayout from "../../components/SiteLayout";
-import { Document } from "react-pdf";
-import resumePDF from "../resume/resumePDF";
+import ReactDOM from "react-dom";
+import Viewer from "./viewer";
 
 export default function Skills({ skills }) {
   return (
     <SiteLayout>
-      <div>
-        <Document file={resumePDF}></Document>
-      </div>
+      {ReactDOM.render(<Viewer />, document.getElementById("root"))}
+
       <div className="divide-y divide-gray-100"></div>
     </SiteLayout>
   );

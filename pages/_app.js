@@ -3,6 +3,7 @@ import App from 'next/app'
 import '../css/tailwind.css'
 import '../styles/style.css'
 
+
 class MyApp extends App {
   render() {
     const { Component, pageProps } = this.props
