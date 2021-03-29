@@ -1,9 +1,6 @@
 import SiteLayout from "../components/SiteLayout";
 import Image from "next/image";
-import getConfig from "next/config";
 
-// import the library
-import { library } from "@fortawesome/fontawesome-svg-core";
 // get our fontawesome imports
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import icons

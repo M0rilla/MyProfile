@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start"    
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.2",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "@pdftron/pdfjs-express": "^7.3.2",
     "@pdftron/webviewer": "^7.3.0",
     "autoprefixer": "^10.2.4",
     "create-react-app": "^4.0.2",
@@ -35,6 +36,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-dom": "^17.0.1",
+    "react-pdf": "^5.2.0",
     "reactstrap": "^8.9.0",
     "sass": "^1.32.7",
     "tailwindcss": "^2.0.3"

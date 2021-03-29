@@ -2,7 +2,6 @@ import NavItem from "../components/NavItem.js";
 import Nav from "./Nav.js";
 import Link from "next/link";
 import Head from "next/head";
-import Image from "next/image";
 
 const SiteLayout = ({ children }) => (
   <div className="mt-8 mx-auto">
