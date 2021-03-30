@@ -1,13 +1,12 @@
 import SiteLayout from "../../components/SiteLayout";
-import ReactDOM from "react-dom";
-import Viewer from "./viewer";
+import React from 'react';
+import dynamic from 'next/dynamic';
+const Viewer = dynamic(() => import('../resume/viewer.js'), {ssr: false});
 
-export default function Skills({ skills }) {
-  return (
-    <SiteLayout>
-      {ReactDOM.render(<Viewer />, document.getElementById("root"))}
-
-      <div className="divide-y divide-gray-100"></div>
-    </SiteLayout>
+export default function Resume({ resume }) {
+  return (  
+    <div>
+      <Viewer />
+    </div> 
   );
 }

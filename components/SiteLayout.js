@@ -21,7 +21,7 @@ const SiteLayout = ({ children }) => (
         <br />
         <h1 className="text-center">
           <span className="block text-xl text-gray-600 ">
-            IT Support Analyst | Developer Fullstack Jr
+            IT Support Analyst | Developer Jr
           </span>
         </h1>
         <br />
