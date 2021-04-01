@@ -4,16 +4,21 @@ import WebViewer from "@pdftron/webviewer";
 const Viewer = (props) => {
   const viewer = useRef(null);
 
-  useEffect(() => {       
-    WebViewer({
-      path: "/lib",
-      initialDoc: "/pdf/GustavoMorilla.pdf"
-    }, viewer.current);
+  useEffect(() => {
+    WebViewer(
+      {
+        path: "/lib",
+        initialDoc: "/pdf/GustavoMorilla.pdf",
+      },
+      viewer.current
+    ).then(function (instance) {
+      instance.setTheme("dark");
+    });
   }, []);
 
   return (
     <div className="Viewer">
-      <div className="header">React sample</div>
+      <div className="header">My Resume</div>
       <div className="webviewer" ref={viewer}></div>
     </div>
   );

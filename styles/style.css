@@ -32,7 +32,7 @@
     line-height: 30px;
 }
 
-.exp-container {
+.page-container {
     max-width: 1100px;
     text-align: center;   
 }
@@ -47,7 +47,8 @@ button {
 
 .Viewer {
     width: 100%;
-    height: 100%;
+    margin-top: 20px;
+    height: 80%;
     display: flex;
     flex-direction: column;
   }
@@ -57,7 +58,7 @@ button {
     height: 60px;
     padding: 8px 8px 8px 16px;
     box-sizing: border-box;
-    background: #00a5e4;
+    background: #00709c;
     font-size: 1.2em;
     line-height: 44px;
     color: white;
@@ -65,7 +66,8 @@ button {
   
   .webviewer {
     flex: 1;
-    margin: 8px;
+    width: 100%;
+    height: 800px;
     -webkit-box-shadow: 1px 1px 10px #999;
             box-shadow: 1px 1px 10px #999;
   }

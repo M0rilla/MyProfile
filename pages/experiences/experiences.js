@@ -7,7 +7,7 @@ export default function Experiences({ skills }) {
       <section>
         <div className="w-screen">
           <div className="flex items-center justify-center">
-            <div className="exp-container">
+            <div className="page-container">
               <div className="grid grid-cols-2 my-14">
                 <div className="m-4">
                   <Image
@@ -65,8 +65,8 @@ export default function Experiences({ skills }) {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center">
-            <div className="exp-container">
+          {/* <div className="flex items-center justify-center">
+            <div className="page-container">
               <div className="text-center">
                 Programming Languages, Frameworks and Tools
                 <div className="m-6">
@@ -177,7 +177,7 @@ export default function Experiences({ skills }) {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </SiteLayout>

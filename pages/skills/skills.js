@@ -6,7 +6,7 @@ export default function Skills({ skills }) {
     <SiteLayout>
       <div className="w-screen">
       <div className="flex items-center justify-center">
-            <div className="exp-container">
+            <div className="page-container">
               <div className="text-center m-14">
                 Programming Languages, Frameworks and Tools
                 <div className="m-6">
