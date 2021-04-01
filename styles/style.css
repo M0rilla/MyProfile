@@ -8,74 +8,91 @@
 */
 
 :root {
-    --desktop:1200px;  
-    --laptop:1024px;  
-    --tablet:768px;         
-    --phone:480px; 
-  }
-
-.home-color {
-    background: rgb(55,65,81);
-    background: linear-gradient(180deg, rgba(55,65,81,1) 0%, rgba(55,65,81,0.7987570028011204) 50%, rgba(255,255,255,1) 100%);
+  --desktop: 1200px;
+  --laptop: 1024px;
+  --tablet: 768px;
+  --phone: 480px;
 }
 
-.home-bgstyle {        
-    min-width: 500px;   
-    min-height: 200px;   
-    max-width: 750px;      
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.home-color {
+  background: rgb(55, 65, 81);
+  background: linear-gradient(
+    180deg,
+    rgba(55, 65, 81, 1) 0%,
+    rgba(55, 65, 81, 0.7987570028011204) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.home-bgstyle {
+  min-width: 500px;
+  min-height: 200px;
+  max-width: 750px;
 }
 
 .home-textbg {
-    background-color: rgb(0 26 41);    
-    font-size: 20px;
-    padding: 10px;     
-    line-height: 30px;
+  background-color: rgb(0 26 41);
+  font-size: 20px;
+  padding: 10px;
+  line-height: 30px;
 }
 
 .page-container {
-    max-width: 1100px;
-    text-align: center;   
+  max-width: 1100px;
+  text-align: center;
 }
 
 .exp-img {
-    padding: 10px !important;
+  padding: 10px !important;
+}
+
+/* PDF */
+.Viewer {
+  width: 100%;
+  margin-top: 20px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Viewer .header {
+  width: 100%;
+  height: 60px;
+  padding: 8px 8px 8px 16px;
+  box-sizing: border-box;
+  background: #00709c;
+  font-size: 1.2em;
+  line-height: 44px;
+  color: white;
+}
+
+.webviewer {
+  flex: 1;
+  width: 100%;
+  height: 800px;
+  -webkit-box-shadow: 1px 1px 10px #999;
+  box-shadow: 1px 1px 10px #999;
+}
+/* END PDF */
+
+.nav.exp:hover {
+  color: #999;
+}
+
+.nav:active {
+  color: rgb(218, 7, 7);
 }
 
 button {
-    padding-inline: 20px;
+  padding-inline: 20px;
 }
-
-.Viewer {
-    width: 100%;
-    margin-top: 20px;
-    height: 80%;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .Viewer .header {
-    width: 100%;
-    height: 60px;
-    padding: 8px 8px 8px 16px;
-    box-sizing: border-box;
-    background: #00709c;
-    font-size: 1.2em;
-    line-height: 44px;
-    color: white;
-  }
-  
-  .webviewer {
-    flex: 1;
-    width: 100%;
-    height: 800px;
-    -webkit-box-shadow: 1px 1px 10px #999;
-            box-shadow: 1px 1px 10px #999;
-  }
-
-  html, body, #root {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-  }
