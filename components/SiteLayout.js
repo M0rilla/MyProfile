@@ -1,5 +1,4 @@
-import NavItem from "../components/NavItem.js";
-import Nav from "./Nav.js";
+import Navbar from "./Navbar";
 import Link from "next/link";
 import Head from "next/head";
 import { useRouter } from "next/router";
@@ -34,24 +33,7 @@ const SiteLayout = ({ children }) => {
           <br />
           <div>
             <div className="max-w-xl mx-auto px-8">
-              <Nav>
-                <NavItem
-                  classname={router.pathname == "/" ? "active" : ""}
-                  href="/"
-                >
-                  Home
-                </NavItem>
-                <NavItem href="/experiences/experiences">
-                  Experiences
-                </NavItem>
-                <NavItem href="/skills/skills">
-                  Skills
-                </NavItem>
-                <NavItem href="/resume/resume">
-                  Resume
-                </NavItem>
-                <NavItem>Projects</NavItem>
-              </Nav>
+              <Navbar></Navbar>
             </div>
           </div>
         </div>
