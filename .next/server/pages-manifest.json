@@ -2,8 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/resume/resume": "pages/resume/resume.js",
-  "/experiences/experiences": "pages/experiences/experiences.js",
   "/": "pages/index.js",
-  "/skills/skills": "pages/skills/skills.js"
+  "/resume/resume": "pages/resume/resume.js"
 }

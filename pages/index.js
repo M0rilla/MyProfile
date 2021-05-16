@@ -15,7 +15,7 @@ import {
 const Index = () => (
   <SiteLayout>
     <section className="w-screen home-color">
-      <div className="flex items-center justify-center my-6">
+      <div className="flex items-center justify-center my-12">
         <div className="flex home-bgstyle bg-home rounded-lg grid grid-cols-2">
           <div className="rounded-lg h-auto my-6 mx-8">
             <Image
@@ -28,19 +28,12 @@ const Index = () => (
           </div>
           <div className="rounded-lg m-8">
             <div className="home-textbg rounded-10 shadow-2xl text-white mt-8">
-              <p>
-                My start at tecnology area was during my bachelor's degree in
-                Computer Science.
-              </p>
-              {/* <p>
-                In 2020 something changed and a passion for develop projects and learn
-                programming hit me like a meteor.
-              </p> */}
-              <br />
-              <p>
-                "The greatest act of kindness is to be able to somehow improve
-                people's lives".
-              </p>
+             <p>"The greatest act of kindness is to be able to somehow improve people's lives".</p>
+               <br />
+             <p>I'm currently looking for job opportunities related to development and technology.</p>                       
+            
+             <br />
+             <p>Thanks for your visit!</p>
             </div>
           </div>
           <div className="flex items-center justify-center rounded-lg m-2 col-span-2">

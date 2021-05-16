@@ -1,5 +1,3 @@
-import NavItem from "../components/NavItem.js";
-import Nav from "./Nav.js";
 import Link from "next/link";
 import Head from "next/head";
 import { useRouter } from "next/router";
@@ -31,32 +29,29 @@ const SiteLayout = ({ children }) => {
               IT Support Analyst | Developer Jr
             </span>
           </h1>
-          <br />
-          <div>
-            </div>
-            </div>
-            <div className="max-w-xl mx-auto px-8">            
-            <Nav>
-                <NavItem
-                  className="home"
-                  href="/"
-                >
-                  Home
-                </NavItem>
-                <NavItem className="exp" 
-                href="/experiences/experiences">
-                  Experiences
-                </NavItem>
-                <NavItem className="skills"
-                href="/skills/skills">
-                  Skills
-                </NavItem>
-                <NavItem className="resume"
-                href="/resume/resume">
-                  Resume
-                </NavItem>
-                <NavItem>Soon...</NavItem>
-              </Nav>
+         <br />
+        <div>
+      </div>
+    </div>
+  <div className="">                      
+      <nav className="nav bg-gray-900 text-white">
+        <ul className="flex space-x-2 justify-center">                             
+          <li className={router.pathname == "/" ? "active" : ""}>
+            <a href="/" className="block px-4 py-2 rounded-md">Home</a>
+          </li>
+          <li className={router.pathname == "/experiences/experiences" ? "active" : ""}>
+            <a href="/experiences/experiences" className="block px-4 py-2 rounded-md">Experiences</a></li>
+          <li className={router.pathname == "/skills/skills" ? "active" : ""}>
+            <a href="/skills/skills" className="block px-4 py-2 rounded-md">Skills</a>
+            </li>
+          <li className={router.pathname == "/resume/resume" ? "active" : ""}>
+            <a href="/resume/resume" className="block px-4 py-2 rounded-md">Resume</a>
+          </li>
+          <li>
+            <a className="block px-4 py-2 rounded-md">Soon...</a>
+            </li>                                                           
+        </ul>
+      </nav>
   </div>
   </div>
       <div className="flex">{children}</div>
