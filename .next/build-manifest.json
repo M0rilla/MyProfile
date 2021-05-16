@@ -28,6 +28,21 @@
       "static/chunks/main.js",
       "static/chunks/webpack.js",
       "static/chunks/pages/_error.js"
+    ],
+    "/experiences/experiences": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/experiences/experiences.js"
+    ],
+    "/resume/resume": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/resume/resume.js"
+    ],
+    "/skills/skills": [
+      "static/chunks/main.js",
+      "static/chunks/webpack.js",
+      "static/chunks/pages/skills/skills.js"
     ]
   },
   "ampFirstPages": []

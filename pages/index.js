@@ -32,10 +32,10 @@ const Index = () => (
                 My start at tecnology area was during my bachelor's degree in
                 Computer Science.
               </p>
-              <p>
+              {/* <p>
                 In 2020 something changed and a passion for develop projects and learn
                 programming hit me like a meteor.
-              </p>
+              </p> */}
               <br />
               <p>
                 "The greatest act of kindness is to be able to somehow improve
