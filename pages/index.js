@@ -1,33 +1,33 @@
 import SiteLayout from "../components/SiteLayout";
 import Image from "next/image";
 
-// get our fontawesome imports
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import icons
-import {
-  faLinkedin,
-  faGithub,
-  faInstagram,
-  faSkype,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import { FaLinkedin,
+  FaGithub,
+  FaInstagram,
+  FaEnvelope,
+  FaWhatsapp } from "react-icons/fa";
 
 const Index = () => (
   <SiteLayout>
-    <section className="w-screen home-color">
-      <div className="flex items-center justify-center my-12">
-        <div className="flex home-bgstyle bg-home rounded-lg grid grid-cols-2">
-          <div className="rounded-lg h-auto my-6 mx-8">
+    <section className="w-screen home-color main">
+      <div className="flex items-center justify-center">
+        <div className="flex home-bgstyle bg-home rounded-lg page-content">
+          <div className="rounded-lg photo">            
             <Image
-              className="rounded-full"              
-              src = "/profile.png"
+              className="rounded-full photo"              
+              src = "/Profile.jpg"
               alt="Picture of the author"
               width={300}
-              height={400}            
+              height={300}    
+              quality={100}        
             />
+            <div className="text-white text-center rounded-lg w-32 h-12 p-1 m-1">
+              <p className="text-sm">Piracicaba - SP</p>
+              <a className="text-sm"> 24 years</a>
+            </div>
           </div>
-          <div className="rounded-lg m-8">
-            <div className="home-textbg rounded-10 shadow-2xl text-white mt-8">
+          <div className="rounded-lg text-center">
+            <div className="home-textbg rounded-lg shadow-2xl text-white">
              <p>"The greatest act of kindness is to be able to somehow improve people's lives".</p>
                <br />
              <p>I'm currently looking for job opportunities related to development and technology.</p>                       
@@ -37,21 +37,21 @@ const Index = () => (
             </div>
           </div>
           <div className="flex items-center justify-center rounded-lg m-2 col-span-2">
-            <div className="home-textbg rounded-10 shadow-2xl text-white">
-              <button onClick={clickHandle} id="LinkedIn">
-                <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+            <div className="social-media">
+              <button id="LinkedIn">
+                <FaLinkedin /> <a href="https://linkedin.com/in/gustavo-morilla" className="ml-1">LinkedIn</a>
               </button>
-              <button onClick={clickHandle} id="GitHub">
-                <FontAwesomeIcon icon={faGithub} /> GitHub
+              <button id="Email">
+                <FaEnvelope /> <a className="ml-1" href="mailto:gu_morilla@hotmail.com">Email</a>
               </button>
-              <button onClick={clickHandle} id="Instagram">
-                <FontAwesomeIcon icon={faInstagram} /> Instagram
+              <button id="GitHub">
+                <FaGithub /> <a href="https://github.com/M0rilla"className="ml-1">GitHub</a>
               </button>
-              <button onClick={clickHandle} id="Skype">
-                <FontAwesomeIcon icon={faSkype} /> Skype
-              </button>
-              <button onClick={clickHandle} id="Whatsapp">
-                <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp
+              <button id="Instagram">
+                <FaInstagram /> <a href="https://www.instagram.com/guuh_morilla/" className="ml-1">Instagram</a>
+              </button>              
+              <button id="Whatsapp">
+                <FaWhatsapp /><a href="https://api.whatsapp.com/send?phone=551999189187&text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20atrav%C3%A9s%20de%20seu%20site!" className="ml-1">WhatsApp</a>
               </button>
             </div>
           </div>
@@ -67,36 +67,5 @@ const Index = () => (
     </section>
   </SiteLayout>
 );
-
-const clickHandle = (event) => {
-  switch (event.target.id) {
-    case "LinkedIn": {
-      // Logic to handle `Linkedin` case
-      document.location.href = "https://linkedin.com/in/gustavo-morilla";
-      break;
-    }
-    case "GitHub": {
-      // Logic to handle `Linkedin` case
-      document.location.href = "https://github.com/M0rilla";
-      break;
-    }
-    case "Instagram": {
-      // Logic to handle `Linkedin` case
-      document.location.href = "https://www.instagram.com/guuh_morilla/";
-      break;
-    }
-    case "Skype": {
-      // Logic to handle `Linkedin` case
-      document.location.href = "https://join.skype.com/invite/hfiwQSelIWGw";
-      break;
-    }
-    case "Whatsapp": {
-      // Logic to handle `Linkedin` case
-      document.location.href =
-        "https://api.whatsapp.com/send?phone=551999189187&text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20atrav%C3%A9s%20de%20seu%20site!";
-      break;
-    }
-  }
-};
 
 export default Index;

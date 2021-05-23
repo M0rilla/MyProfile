@@ -4,14 +4,14 @@ import Image from "next/image";
 export default function Skills({ skills }) {
   return (
     <SiteLayout>
-      <div className="w-screen">
+      <div className="w-screen main">
       <div className="flex items-center justify-center">
             <div className="page-container">
               <div className="text-center m-14">
                 Programming Languages, Frameworks and Tools
                 <div className="m-6">
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/html.png"
                     alt="HTML 5"
                     title="HTML (Structure)"
@@ -19,7 +19,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/css.png"
                     alt="CSS 3"
                     title="CSS (Structure)"
@@ -27,7 +27,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/js.png"
                     alt="Javascript"
                     title="Javascript"
@@ -35,7 +35,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/JQuery-01.jpg"
                     alt="JQuery"
                     title="Jquery"
@@ -43,7 +43,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/c.png"
                     alt="CSharp"
                     title="CSharp"
@@ -51,7 +51,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/git.png"
                     alt="Git"
                     title="Git"
@@ -59,7 +59,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/mvc.png"
                     alt=".NET MVC"
                     title=".NET MVC"
@@ -67,7 +67,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/next-js.svg"
                     alt="Next.js"
                     title="Next.js"
@@ -75,7 +75,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/npm.png"
                     alt="NPM"
                     title="Node Package Manager"
@@ -83,7 +83,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/bootstrap-4.svg"
                     alt="Bootstrap"
                     title="Bootstrap"
@@ -91,7 +91,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/tailwindcss.svg"
                     alt="Tailwind"
                     title="Tailwind"
@@ -99,7 +99,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/oracle-logo-1.svg"
                     alt="Oracle"
                     title="Oracle DB"
@@ -107,7 +107,7 @@ export default function Skills({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/mysql.png"
                     alt="MySQL"
                     title="MySQL"

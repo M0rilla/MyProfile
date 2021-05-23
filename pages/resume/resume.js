@@ -6,8 +6,10 @@ const Viewer = dynamic(() => import("../resume/viewer.js"), { ssr: false });
 export default function Resume({ resume }) {
   return (
     <div>
-      <SiteLayout>                        
-              <Viewer />      
+      <SiteLayout>    
+      <div className="main w-screen">                         
+          <Viewer />     
+        </div>               
       </SiteLayout>
     </div>
   );

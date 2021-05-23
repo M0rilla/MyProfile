@@ -17,9 +17,14 @@ const Viewer = (props) => {
   }, []);
 
   return (
-    <div className="Viewer">
-      <div className="header">My Resume</div>
-      <div className="webviewer" ref={viewer}></div>
+    <div>      
+        <div className="Viewer">  
+        <div className="header flex justify-between">          
+          <a>Resume</a>
+          <a className="text-sm">You can download the file on "Settings" button</a>         
+        </div>    
+        <div className="Webviewer" ref={viewer}></div>
+      </div>
     </div>
   );
 };

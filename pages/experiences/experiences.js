@@ -4,18 +4,18 @@ import Image from "next/image";
 export default function Experiences({ skills }) {
   return (
     <SiteLayout>
-      <section>
+      <section className="main">
         <div className="w-screen">
           <div className="flex items-center justify-center">
             <div className="page-container">
               <div className="grid grid-cols-2 my-14">
                 <div className="m-4">
                   <Image
-                    className=""
+                    className="images"
                     src="/career.jpg"
                     alt="Career"
                     width={400}
-                    height={250}
+                    height={250}                    
                   />
                 </div>
                 <div className="text-justify">
@@ -55,7 +55,7 @@ export default function Experiences({ skills }) {
                 </div>
                 <div className="text-center">
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/icon.png"
                     alt="Career"
                     width={350}
@@ -71,7 +71,7 @@ export default function Experiences({ skills }) {
                 Programming Languages, Frameworks and Tools
                 <div className="m-6">
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/html.png"
                     alt="HTML 5"
                     title="HTML (Structure)"
@@ -79,7 +79,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/css.png"
                     alt="CSS 3"
                     title="CSS (Structure)"
@@ -87,7 +87,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/js.png"
                     alt="Javascript"
                     title="Javascript"
@@ -95,7 +95,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/JQuery-01.jpg"
                     alt="JQuery"
                     title="Jquery"
@@ -103,7 +103,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/c.png"
                     alt="CSharp"
                     title="CSharp"
@@ -111,7 +111,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/git.png"
                     alt="Git"
                     title="Git"
@@ -119,7 +119,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/mvc.png"
                     alt=".NET MVC"
                     title=".NET MVC"
@@ -127,7 +127,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/next-js.svg"
                     alt="Next.js"
                     title="Next.js"
@@ -135,7 +135,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/npm.png"
                     alt="NPM"
                     title="Node Package Manager"
@@ -143,7 +143,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/bootstrap-4.svg"
                     alt="Bootstrap"
                     title="Bootstrap"
@@ -151,7 +151,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/tailwindcss.svg"
                     alt="Tailwind"
                     title="Tailwind"
@@ -159,7 +159,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img"
+                    className="images"
                     src="/oracle-logo-1.svg"
                     alt="Oracle"
                     title="Oracle DB"
@@ -167,7 +167,7 @@ export default function Experiences({ skills }) {
                     height={200}
                   />
                   <Image
-                    className="exp-img rounded-full"
+                    className="images rounded-full"
                     src="/mysql.png"
                     alt="MySQL"
                     title="MySQL"

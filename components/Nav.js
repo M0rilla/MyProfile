@@ -4,8 +4,8 @@ export default function Nav() {
     const router = useRouter();
 
     return (
-        <nav className="nav bg-gray-900 text-white">
-        <ul className="flex space-x-2 justify-center">                             
+      <nav className="nav bg-gray-900">
+        <ul className="flex justify-center">                             
           <li className={router.pathname == "/" ? "active" : ""}>
             <a href="/" className="block px-4 py-2 rounded-md">Home</a>
           </li>
@@ -16,10 +16,7 @@ export default function Nav() {
             </li>
           <li className={router.pathname == "/resume/resume" ? "active" : ""}>
             <a href="/resume/resume" className="block px-4 py-2 rounded-md">Resume</a>
-          </li>
-          <li>
-            <a className="block px-4 py-2 rounded-md">Soon...</a>
-            </li>                                                           
+          </li>                                                                   
         </ul>
       </nav>
     )
