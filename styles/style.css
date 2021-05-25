@@ -31,8 +31,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .main {
-  margin-top: 8rem;
-  padding: 1rem;
+  margin-top: 8rem; 
 }
 
 .head {  
@@ -63,7 +62,7 @@ body::-webkit-scrollbar-thumb {
 
 .home-textbg {
   background-color: rgb(0 26 41);
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
   line-height: 30px;
 }
@@ -74,11 +73,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 0.2rem;
   background-color: var(--bg-primary); 
   line-height: 2rem; 
-}
-
-.page-container {
-  max-width: 1100px;
-  text-align: center;
 }
 
 .photo {
@@ -143,6 +137,8 @@ button {
 
 /* Small Screens */
 @media only screen and (max-width: 600px){
+
+  /* index sm ----- */
 .head{
   font-size: 2rem;
   padding: 0.5rem;
@@ -160,14 +156,32 @@ button {
   display:block;
 }
 
+.home-textbg {
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;   
+  margin-bottom: 1.5rem; 
+}
+
 .photo {
   padding: 1rem !important;
 }
 
+  /* experiences sm ----- */
+.page-content-exp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 /* Large Screens */
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 601px){
+
+  /* index lg ----- */
 .head{
   font-size: 3rem; 
   line-height: 1;
@@ -185,8 +199,9 @@ button {
 }
 
 .home-bgstyle{
+  margin-top: 2rem;
   max-width: 750px;
-  min-width: 500px;
+  min-width: 600x;
 }
 
 .home-textbg {
@@ -196,7 +211,6 @@ button {
   align-items: center;
   font-size: 20px;   
   margin-top: 3rem; 
-  width: 340px;
 }
 
 .page-content {
@@ -211,6 +225,17 @@ button {
 .social-media{
   width: 50rem;
   height: 2rem; 
+}
+
+  /* experiences lg ----- */
+
+.page-content-exp {    
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;   
+  margin-top: 2rem;
+  width: 120vh;
 }
 
 }

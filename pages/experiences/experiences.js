@@ -7,18 +7,18 @@ export default function Experiences({ skills }) {
       <section className="main">
         <div className="w-screen">
           <div className="flex items-center justify-center">
-            <div className="page-container">
-              <div className="grid grid-cols-2 my-14">
-                <div className="m-4">
-                  <Image
-                    className="images"
-                    src="/career.jpg"
-                    alt="Career"
-                    width={400}
-                    height={250}                    
-                  />
-                </div>
-                <div className="text-justify">
+            <div className="page-content-exp">
+            <div className="text-center">
+                <Image
+                  className="images"
+                  src="/career.jpg"
+                  alt="Career"
+                  width={400}
+                  height={300}                    
+                />
+              </div>
+              <div>                
+                <div className="text-justify m-6">
                   <p>Career experience</p>
                   <br />
                   <p>06/2016 – 10/2018 HELPDESK INTERN, HYUNDAI AUTOEVER</p>
@@ -37,7 +37,20 @@ export default function Experiences({ skills }) {
                     (Manufacturing Execution System).
                   </span>
                 </div>
-                <div className="text-justify m-12">
+              </div>              
+              <div>
+              <div className="text-center">
+                  <Image
+                    className="images"
+                    src="/icon2.png"
+                    alt="Career"
+                    width={180}
+                    height={150}
+                  />
+                </div>   
+                </div>
+                <div>           
+                <div className="text-justify m-6">
                   <p>Development Experience</p>
                   <br />
                   <span>
@@ -48,21 +61,12 @@ export default function Experiences({ skills }) {
                     hierarquia. Sistema MVC usando C#, JS, HTML e CSS. Toda
                     estrutura de banco de dados (Oracle) foi criada por mim
                     contendo jobs, triggers e procedures configuradas, além do
-                    controle de logs. Projeto com implementação prevista em mais
-                    3 Plantas – MOBIS, Transys, Dymos além da Hyundai Motors
+                    controle de logs. Projeto com implementação em equipes de 3 fábricas
+                    Hyundai Motors, Transys e Mobis.
                   </span>
                   <p>...</p>
-                </div>
-                <div className="text-center">
-                  <Image
-                    className="images"
-                    src="/icon.png"
-                    alt="Career"
-                    width={350}
-                    height={300}
-                  />
-                </div>
-              </div>
+                </div>                
+              </div>            
             </div>
           </div>
           {/* <div className="flex items-center justify-center">
