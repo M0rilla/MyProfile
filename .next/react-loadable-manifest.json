@@ -1,14 +1,14 @@
 {
-  "resume\\resume.js -> ../resume/viewer.js": {
-    "id": "vRHl",
-    "files": [
-      "static/chunks/16.25ba38de8524520c7742.js"
-    ]
-  },
-  "resume\\viewer.js -> @pdftron/webviewer": {
+  "..\\components\\viewer.js -> @pdftron/webviewer": {
     "id": "18sX",
     "files": [
-      "static/chunks/15.560ae784d4c7a649bc7e.js"
+      "static/chunks/13.e254a8169fb9c931a02c.js"
+    ]
+  },
+  "resume.js -> ../components/viewer.js": {
+    "id": "u8wF",
+    "files": [
+      "static/chunks/14.148aefb897fd9ddeb20f.js"
     ]
   }
 }
