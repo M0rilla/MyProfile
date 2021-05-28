@@ -1,21 +1,20 @@
 import React, { useRef, useEffect } from "react";
-// import WebViewer from "@pdftron/webviewer";
+import WebViewer from "@pdftron/webviewer";
 
 const Viewer = () => {
   const viewer = useRef(null);
 
-  useEffect(async () => {   
-    const WebViewer = await import("@pdftron/webviewer");
-    WebViewer(
+  // useEffect(async () => {     
+      WebViewer(
       {
         path: '/lib',
         initialDoc: "/pdf/GustavoMorilla.pdf",
       },
-      viewer.current
-    ).then(function (instance) {
-      instance.setTheme("dark");
-    });
-  }, []);
+      viewer.current)
+    // ).then(function (instance) {
+    //   instance.setTheme("dark");
+    // });
+  // }, []);
 
   return (
     <div>      

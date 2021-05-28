@@ -1,14 +1,8 @@
 {
-  "..\\components\\viewer.js -> @pdftron/webviewer": {
-    "id": "18sX",
-    "files": [
-      "static/chunks/13.e254a8169fb9c931a02c.js"
-    ]
-  },
   "resume.js -> ../components/viewer.js": {
     "id": "u8wF",
     "files": [
-      "static/chunks/14.148aefb897fd9ddeb20f.js"
+      "static/chunks/13.be5cbca9f1098bf17135.js"
     ]
   }
 }
