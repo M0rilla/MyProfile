@@ -1,8 +1,8 @@
 {
-  "resume.js -> ../components/viewer.js": {
-    "id": "u8wF",
+  "..\\node_modules\\next\\dist\\client\\next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
     "files": [
-      "static/chunks/13.be5cbca9f1098bf17135.js"
+      "static/chunks/0.js"
     ]
   }
 }

@@ -3,6 +3,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Nav from './Nav'
 
+
 const SiteLayout = ({ children }) => {
   const router = useRouter();
 
