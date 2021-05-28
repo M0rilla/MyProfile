@@ -169,17 +169,10 @@ button {
   padding: 1rem !important;
 }
 
-  /* experiences sm ----- */
-.page-content-exp{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 }
 
 /* Large Screens */
-@media only screen and (min-width: 601px){
+@media only screen and (min-width: 600px){
 
   /* index lg ----- */
 .head{
@@ -227,15 +220,26 @@ button {
   height: 2rem; 
 }
 
-  /* experiences lg ----- */
-
+/* experiences lg ----- */
 .page-content-exp {    
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr 1fr;   
   margin-top: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
   width: 120vh;
 }
+}
 
+/* Medium screen */
+@media only screen and (max-width: 900px){
+  /* experiences sm ----- */
+  .page-content-exp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }

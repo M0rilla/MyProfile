@@ -1,10 +1,11 @@
 import React, { useRef, useEffect } from "react";
-import WebViewer from "@pdftron/webviewer";
+// import WebViewer from "@pdftron/webviewer";
 
 const Viewer = () => {
   const viewer = useRef(null);
 
-  useEffect(() => {
+  useEffect(async () => {   
+    const WebViewer = await import("@pdftron/webviewer");
     WebViewer(
       {
         path: '/lib',

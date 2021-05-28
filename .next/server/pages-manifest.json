@@ -1,5 +1,11 @@
 {
   "/_app": "pages/_app.js",
+  "/experiences/experiences": "pages/experiences/experiences.html",
+  "/": "pages/index.html",
+  "/resume/resume": "pages/resume/resume.html",
+  "/resume/viewer": "pages/resume/viewer.html",
+  "/skills/skills": "pages/skills/skills.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }

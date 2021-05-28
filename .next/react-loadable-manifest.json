@@ -1,8 +1,14 @@
 {
-  "..\\node_modules\\next\\dist\\client\\next-dev.js -> ./dev/noop": {
-    "id": "./node_modules/next/dist/client/dev/noop.js",
+  "resume\\resume.js -> ../resume/viewer.js": {
+    "id": "vRHl",
     "files": [
-      "static/chunks/0.js"
+      "static/chunks/16.25ba38de8524520c7742.js"
+    ]
+  },
+  "resume\\viewer.js -> @pdftron/webviewer": {
+    "id": "18sX",
+    "files": [
+      "static/chunks/15.560ae784d4c7a649bc7e.js"
     ]
   }
 }
