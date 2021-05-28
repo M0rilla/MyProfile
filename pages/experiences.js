@@ -1,4 +1,4 @@
-import SiteLayout from "../../components/SiteLayout";
+import SiteLayout from "../components/SiteLayout";
 import Image from "next/image";
 
 export default function Experiences({ skills }) {

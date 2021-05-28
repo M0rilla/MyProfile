@@ -1,7 +1,7 @@
-import SiteLayout from "../../components/SiteLayout";
+import SiteLayout from "../components/SiteLayout";
 import React from "react";
 import dynamic from "next/dynamic";
-const Viewer = dynamic(() => import("../resume/viewer.js"), { ssr: false });
+const Viewer = dynamic(() => import("../components/viewer.js"), { ssr: false });
 
 export default function Resume({ resume }) {
   return (
