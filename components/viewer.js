@@ -4,17 +4,17 @@ import WebViewer from "@pdftron/webviewer";
 const Viewer = () => {
   const viewer = useRef(null);
 
-  // useEffect(async () => {     
+  useEffect(() => {     
       WebViewer(
       {
         path: '/lib',
         initialDoc: "/pdf/GustavoMorilla.pdf",
-      },
-      viewer.current)
-    // ).then(function (instance) {
-    //   instance.setTheme("dark");
-    // });
-  // }, []);
+      },              
+    viewer.current)
+    .then(function (instance) {
+      instance.setTheme("dark");
+    });
+  }, []);
 
   return (
     <div>      
