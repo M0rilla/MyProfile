@@ -27,8 +27,8 @@ return (
             </Link>
           </h1>          
           <h1 className="text-center">
-            <span className="text-xl text-gray-600 ">
-              IT Support Analyst | Developer Jr
+            <span className="text-gray-600 ">
+              MES Analyst | Developer Jr
             </span>
           </h1>              
         </div>  

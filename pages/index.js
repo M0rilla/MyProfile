@@ -17,8 +17,8 @@ const Index = () => (
               className="rounded-full photo"              
               src = "/Profile.jpg"
               alt="Picture of the author"
-              width={300}
-              height={300}    
+              width={220}
+              height={220}    
               quality={100}        
             />
             <div className="text-white text-center rounded-lg w-32 h-12 p-1 m-1">
@@ -46,10 +46,7 @@ const Index = () => (
               </button>
               <button id="GitHub">
                 <FaGithub /> <a href="https://github.com/M0rilla"className="ml-1">GitHub</a>
-              </button>
-              <button id="Instagram">
-                <FaInstagram /> <a href="https://www.instagram.com/guuh_morilla/" className="ml-1">Instagram</a>
-              </button>              
+              </button>                      
               <button id="Whatsapp">
                 <FaWhatsapp /><a href="https://api.whatsapp.com/send?phone=551999189187&text=Ol%C3%A1%2C%20encontrei%20seu%20contato%20atrav%C3%A9s%20de%20seu%20site!" className="ml-1">WhatsApp</a>
               </button>

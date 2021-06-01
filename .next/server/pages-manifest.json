@@ -1,10 +1,8 @@
 {
   "/_app": "pages/_app.js",
-  "/experiences": "pages/experiences.html",
-  "/": "pages/index.html",
-  "/resume": "pages/resume.html",
-  "/skills": "pages/skills.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/404": "pages/404.html"
+  "/skills": "pages/skills.js",
+  "/": "pages/index.js",
+  "/experiences": "pages/experiences.js"
 }

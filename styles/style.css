@@ -83,11 +83,6 @@ body::-webkit-scrollbar-thumb {
   padding: 1rem;
 }
 
-.images {
-  position: relative;  
-  padding: 10px !important;  
-}
-
 /* PDF */
 .Viewer {
   width: 100%;
@@ -140,8 +135,8 @@ button {
 
   /* index sm ----- */
 .head{
-  font-size: 2rem;
-  padding: 0.5rem;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 .nav {
@@ -150,6 +145,10 @@ button {
   align-items: center;
   bottom: 0;
   width: 100vw;
+}
+
+.main {
+  margin-top: 5.0rem; 
 }
 
 .page-content{
@@ -169,6 +168,11 @@ button {
   padding: 1rem !important;
 }
 
+/* skills sm ----- */
+.images {
+ position: static;
+ padding: 10px !important;
+}
 }
 
 /* Large Screens */
@@ -230,6 +234,12 @@ button {
   margin-left: 5rem;
   margin-right: 5rem;
   width: 120vh;
+}
+
+/* skills lg ----- */
+.images {
+  position:relative;
+  padding: 0.2rem !important;
 }
 }
 
