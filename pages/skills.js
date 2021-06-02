@@ -15,64 +15,64 @@ export default function Skills({ skills }) {
                     src="/html.png"
                     alt="HTML 5"
                     title="HTML (Structure)"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images rounded-full"
                     src="/css.png"
                     alt="CSS 3"
                     title="CSS (Structure)"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images rounded-full"
                     src="/js.png"
                     alt="Javascript"
                     title="Javascript"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images rounded-full"
                     src="/JQuery-01.jpg"
                     alt="JQuery"
                     title="Jquery"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/c.png"
                     alt="CSharp"
                     title="CSharp"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/git.png"
                     alt="Git"
                     title="Git"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/mvc.png"
                     alt=".NET MVC"
                     title=".NET MVC"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/next-js.svg"
                     alt="Next.js"
                     title="Next.js"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images rounded-full"
@@ -87,32 +87,32 @@ export default function Skills({ skills }) {
                     src="/bootstrap-4.svg"
                     alt="Bootstrap"
                     title="Bootstrap"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/tailwindcss.svg"
                     alt="Tailwind"
                     title="Tailwind"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/oracle-logo-1.svg"
                     alt="Oracle"
                     title="Oracle DB"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                   <Image
                     className="images rounded-full"
                     src="/mysql.png"
                     alt="MySQL"
                     title="MySQL"
-                    width={150}
-                    height={150}
+                    width={140}
+                    height={140}
                   />
                 </div>
               </div>
