@@ -25,7 +25,7 @@ export default function Experiences({ skills }) {
                   <span>
                     Responsible for solving server problems,
                     MES-related processes, applications, systems and devices.
-                    Support to OPC Servers - Scada, Daemon.
+                    Support to OPC, Scada and Daemon Servers.
                     <p className="mt-2">(Manufacturing Execution System).</p>
                   </span>                
                 </div>

@@ -27,7 +27,7 @@ return (
             </Link>
           </h1>          
           <h1 className="text-center">
-            <span className="text-gray-600 ">
+            <span className="text-gray-600 subtitle">
               MES Analyst | Developer Jr
             </span>
           </h1>              

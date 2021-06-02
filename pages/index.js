@@ -17,13 +17,13 @@ const Index = () => (
               className="rounded-full photo"              
               src = "/Profile.jpg"
               alt="Picture of the author"
-              width={220}
+              width={200}
               height={220}    
               quality={100}        
             />
-            <div className="text-white text-center rounded-lg w-32 h-12 p-1 m-1">
-              <p className="text-sm">Piracicaba - SP</p>
-              <a className="text-sm"> 24 years</a>
+            <div className="text-white text-center rounded-lg w-32 h-14 mt-4">
+              <p className="">Piracicaba - SP</p>
+              <a className=""> 24 years</a>
             </div>
           </div>
           <div className="rounded-lg text-center">
