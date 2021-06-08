@@ -102,7 +102,6 @@ body::-webkit-scrollbar-thumb {
   padding: 8px 8px 8px 16px;
   box-sizing: border-box;
   background: #00709c;
-  font-size: 1.2em;
   line-height: 44px;
   color: white;
 }
@@ -176,6 +175,22 @@ button {
  position: static;
  padding: 10px !important;
 }
+
+/* resume sm ----- */
+.download {
+  background: #00709c;
+  color: white;
+  width: 6rem;
+  height: 2rem;
+  font-size: 11px;
+  border-radius: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+
+}
+
 }
 
 /* Large Screens */
@@ -199,7 +214,7 @@ button {
 }
 
 .main {
-  margin-top: 10rem;  
+  margin-top: 10rem;   
 }
 
 .home-bgstyle{
@@ -244,10 +259,29 @@ button {
 }
 
 /* skills lg ----- */
+.skills {
+  display: flex;
+  width: 90rem;    
+}
+
 .images {
   position:relative;
   padding: 0.2rem !important;
 }
+
+ /* resume lg ----- */
+.download {
+  background: #00709c;
+  color: white;
+  width: 10rem;
+  height: 2rem;
+  border-radius: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
 }
 
 /* Medium screen */
