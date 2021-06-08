@@ -28,7 +28,7 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images rounded-full"
-                    src="/js.png"
+                    src="/js.jpg"
                     alt="Javascript"
                     title="Javascript"
                     width={130}
@@ -52,7 +52,7 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/git-img.png"
+                    src="/git.jpg"
                     alt="Git"
                     title="Git"
                     width={140}
@@ -60,7 +60,7 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/mvc-img.png"
+                    src="/mvc.jpg"
                     alt=".NET MVC"
                     title=".NET MVC"
                     width={140}
