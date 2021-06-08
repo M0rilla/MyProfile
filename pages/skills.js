@@ -23,7 +23,7 @@ export default function Skills({ skills }) {
                     src="/css.png"
                     alt="CSS 3"
                     title="CSS (Structure)"
-                    width={130}
+                    width={140}
                     height={140}
                   />
                   <Image
@@ -55,7 +55,7 @@ export default function Skills({ skills }) {
                     src="/git.png"
                     alt="Git"
                     title="Git"
-                    width={130}
+                    width={140}
                     height={140}
                   />
                   <Image
@@ -63,7 +63,7 @@ export default function Skills({ skills }) {
                     src="/mvc.png"
                     alt=".NET MVC"
                     title=".NET MVC"
-                    width={130}
+                    width={140}
                     height={140}
                   />
                   <Image

@@ -95,7 +95,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Viewer .header {
-  width: 90vw;
+  width: 70vw;
   height: 55px;
   align-items: center; 
   align-content: center; 
@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .Viewer .Webviewer {
-  width: 90vw;
+  width: 70vw;
   height: 800px;  
 }
 /* END PDF */
