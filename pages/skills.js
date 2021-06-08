@@ -15,7 +15,7 @@ export default function Skills({ skills }) {
                     src="/html.png"
                     alt="HTML 5"
                     title="HTML (Structure)"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -23,7 +23,7 @@ export default function Skills({ skills }) {
                     src="/css.png"
                     alt="CSS 3"
                     title="CSS (Structure)"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -31,7 +31,7 @@ export default function Skills({ skills }) {
                     src="/js.png"
                     alt="Javascript"
                     title="Javascript"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -39,7 +39,7 @@ export default function Skills({ skills }) {
                     src="/JQuery-01.jpg"
                     alt="JQuery"
                     title="Jquery"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -47,15 +47,15 @@ export default function Skills({ skills }) {
                     src="/c.png"
                     alt="CSharp"
                     title="CSharp"
-                    width={140}
-                    height={140}
+                    width={130}
+                    height={130}
                   />
                   <Image
                     className="images"
                     src="/git.png"
                     alt="Git"
                     title="Git"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -63,7 +63,7 @@ export default function Skills({ skills }) {
                     src="/mvc.png"
                     alt=".NET MVC"
                     title=".NET MVC"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -71,31 +71,31 @@ export default function Skills({ skills }) {
                     src="/next-js.svg"
                     alt="Next.js"
                     title="Next.js"
-                    width={140}
-                    height={140}
+                    width={130}
+                    height={130}
                   />
                   <Image
                     className="images rounded-full"
                     src="/npm.png"
                     alt="NPM"
                     title="Node Package Manager"
-                    width={150}
-                    height={150}
+                    width={130}
+                    height={140}
                   />
                   <Image
                     className="images"
                     src="/bootstrap-4.svg"
                     alt="Bootstrap"
                     title="Bootstrap"
-                    width={140}
-                    height={140}
+                    width={130}
+                    height={130}
                   />
                   <Image
                     className="images"
                     src="/tailwindcss.svg"
                     alt="Tailwind"
                     title="Tailwind"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -103,7 +103,7 @@ export default function Skills({ skills }) {
                     src="/oracle-logo-1.svg"
                     alt="Oracle"
                     title="Oracle DB"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -111,7 +111,7 @@ export default function Skills({ skills }) {
                     src="/mysql.png"
                     alt="MySQL"
                     title="MySQL"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                 </div>
