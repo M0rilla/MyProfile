@@ -52,7 +52,7 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/git.jpg"
+                    src="/git-img.png"
                     alt="Git"
                     title="Git"
                     width={140}
