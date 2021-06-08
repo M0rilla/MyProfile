@@ -52,7 +52,7 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/Git.png"
+                    src="/git.png"
                     alt="Git"
                     title="Git"
                     width={140}
@@ -60,7 +60,7 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/MVC.png"
+                    src="/mvc.png"
                     alt=".NET MVC"
                     title=".NET MVC"
                     width={140}
