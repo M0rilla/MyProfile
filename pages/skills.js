@@ -23,7 +23,7 @@ export default function Skills({ skills }) {
                     src="/css.png"
                     alt="CSS 3"
                     title="CSS (Structure)"
-                    width={140}
+                    width={130}
                     height={140}
                   />
                   <Image
@@ -35,12 +35,12 @@ export default function Skills({ skills }) {
                     height={140}
                   />
                   <Image
-                    className="images rounded-full"
+                    className="images rounded-full shadow-inner"
                     src="/JQuery-01.jpg"
                     alt="JQuery"
                     title="Jquery"
                     width={130}
-                    height={140}
+                    height={130}
                   />
                   <Image
                     className="images"
@@ -52,19 +52,19 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/git-img.png"
+                    src="/git.jpg"
                     alt="Git"
                     title="Git"
-                    width={140}
-                    height={140}
+                    width={130}
+                    height={130}
                   />
                   <Image
                     className="images"
                     src="/mvc.jpg"
                     alt=".NET MVC"
                     title=".NET MVC"
-                    width={140}
-                    height={140}
+                    width={130}
+                    height={130}
                   />
                   <Image
                     className="images"
