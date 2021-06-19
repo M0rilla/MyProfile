@@ -11,7 +11,7 @@ export default function Resume({ resume }) {
       <SiteLayout>
         <div className="main w-screen">
           <div className="flex align-center justify-center">
-            <a className="download" href="/pdf/GustavoMorilla.pdf"
+            <a className="download" href="/pdf/GustavoMorilla-Curriculo.pdf"
               download><FaDownload className="mr-2" />Download</a>
           </div>
           <Viewer />

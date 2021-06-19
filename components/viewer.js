@@ -8,7 +8,7 @@ const Viewer = () => {
       WebViewer(
       {
         path: '/lib',
-        initialDoc: "/pdf/GustavoMorilla.pdf",
+        initialDoc: "/pdf/GustavoMorilla-Curriculo.pdf",
       },              
     viewer.current)
     .then(function (instance) {
