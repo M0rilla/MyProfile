@@ -9,7 +9,7 @@
 Esse projeto foi desenvolvido com:
 
 - [NextJS](https://nextjs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## 💻 Projeto
 
