@@ -1,3 +1,14 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "cSpell.ignoreWords": [
+        "bgstyle",
+        "piracicaba"
+    ],
+    "cSpell.words": [
+        "Linkedin",
+        "Whatsapp",
+        "reactjs",
+        "tailwindcss",
+        "textbg"
+    ]
 }

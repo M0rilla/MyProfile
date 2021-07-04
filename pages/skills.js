@@ -52,17 +52,17 @@ export default function Skills({ skills }) {
                   />
                   <Image
                     className="images"
-                    src="/git.jpg"
-                    alt="Git"
-                    title="Git"
-                    width={130}
-                    height={130}
-                  />
-                  <Image
-                    className="images"
                     src="/mvc.jpg"
                     alt=".NET MVC"
                     title=".NET MVC"
+                    width={130}
+                    height={130}
+                  />   
+                  <Image
+                    className="images"
+                    src="/reactjs.svg"
+                    alt="React"
+                    title="React"
                     width={130}
                     height={130}
                   />
@@ -73,7 +73,23 @@ export default function Skills({ skills }) {
                     title="Next.js"
                     width={130}
                     height={130}
-                  />
+                  />                  
+                  <Image
+                    className="images"
+                    src="/github.svg"
+                    alt="GitHub"
+                    title="GitHub"
+                    width={130}
+                    height={130}
+                  />      
+                  <Image
+                    className="images"
+                    src="/git.jpg"
+                    alt="Git"
+                    title="Git"
+                    width={130}
+                    height={130}
+                  />                           
                   <Image
                     className="images rounded-full"
                     src="/npm.png"

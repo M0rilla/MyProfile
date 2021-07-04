@@ -12,9 +12,9 @@ const Index = () => (
     <section className="w-screen home-color main">
       <div className="flex items-center justify-center">
         <div className="flex home-bgstyle bg-home rounded-lg page-content">
-          <div className="rounded-lg photo">            
+          <div className="photo">            
             <Image
-              className="rounded-full photo"              
+              className="rounded-2xl photo"              
               src = "/Profile.jpg"
               alt="Picture of the author"
               width={200}

@@ -168,6 +168,7 @@ button {
 
 .photo {
   padding: 1rem !important;
+  border-radius: 2rem;
 }
 
 /* skills sm ----- */
@@ -237,7 +238,7 @@ button {
 }
 
 .photo{
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .social-media{
