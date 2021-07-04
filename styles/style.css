@@ -256,7 +256,7 @@ button {
 /* skills lg ----- */
 .skills {
   display: flex;
-  width: 90rem;    
+  width: 50rem;      
 }
 
 .images {

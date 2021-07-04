@@ -37,7 +37,7 @@ return (
     <Nav></Nav>
     <div className="flex">{children}</div>
       <footer className="footer bg-white">
-        <div className="container mx-auto px-6">
+        <div className="container w-2/4 mx-auto">
           <div className="mt-16 mb-10 border-t-2 border-black flex flex-col items-center">
             <div className="sm:w-2/3 text-center py-4">
               <p className="text-sm text-black mb-2">

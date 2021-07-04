@@ -9,7 +9,7 @@ export default function Skills({ skills }) {
             <div className="skills">
               <div className="text-center font-bold mt-10">
                 Programming Languages, Frameworks and Tools
-                <div className="m-14">
+                <div className="mb-14 mt-10">
                   <Image
                     className="images rounded-full"
                     src="/html.png"
