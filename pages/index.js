@@ -26,14 +26,11 @@ const Index = () => (
               <a className=""> 24 years</a>
             </div>
           </div>
-          <div className="rounded-lg text-center">
+          <div className="flex rounded-lg text-center">
             <div className="home-textbg rounded-lg shadow-2xl text-white">
-             <p>"The greatest act of kindness is to be able to somehow improve people's lives".</p>
-               <br />
-             <p>I'm currently looking for job opportunities related to development and technology.</p>                       
-            
-             <br />
-             <p>Thanks for your visit!</p>
+             <p className="italic">"The greatest act of kindness is to be able to improve people's lives".</p>
+             <p className="mt-4">I'm currently looking for job opportunities related to development and technology.</p>                       
+             <p className="mt-1">Thanks for your visit!</p>
             </div>
           </div>
           <div className="flex items-center justify-center rounded-lg m-2 col-span-2">

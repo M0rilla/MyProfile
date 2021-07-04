@@ -12,7 +12,7 @@ return (
     <div className="bg-white mx-auto">
       <div className="head">
         <Head>
-          <title>Gustavo Morilla - Profile</title>
+          <title>Gustavo Morilla</title>
           <meta
             name="viewport"
             content="initial-scale=1.0, width=device-width"

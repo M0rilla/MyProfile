@@ -7,7 +7,7 @@ export default function Skills({ skills }) {
       <div className="w-screen main">
       <div className="flex items-center justify-center">
             <div className="skills">
-              <div className="text-center mt-8">
+              <div className="text-center font-bold mt-10">
                 Programming Languages, Frameworks and Tools
                 <div className="m-14">
                   <Image
