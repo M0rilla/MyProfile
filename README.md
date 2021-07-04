@@ -16,6 +16,8 @@ Esse projeto foi desenvolvido com:
 Perfil onde apresento diversas informações sobre a minha experiência profissional, minhas habilidades e disponibilizo meu curriculo para leitura e download.
 Desenvolvido com o intuito de explorar NextJS e alguns conceitos de responsividade.
 
+Acesse: www.morilla.com.br
+
 ## 🔖 Layout
 
 Você pode visualizar o layout do projeto através do link abaixo:
